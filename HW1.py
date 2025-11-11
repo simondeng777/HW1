@@ -23,7 +23,7 @@ print(image2.size)
 
 #縮小照片到指定像素
 width=512
-height=256
+height=512
 nim=image2.resize((width,height), Image.BILINEAR)
 Image._show(nim)
 print(nim.size)
